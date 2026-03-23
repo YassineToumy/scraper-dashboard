@@ -1,0 +1,10 @@
+services:
+  dashboard:
+    build: .
+    container_name: scraper-dashboard
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=${MONGODB_URI}
+      - NODE_ENV=production
