@@ -18,10 +18,6 @@ export const SCRAPERS: Record<string, {
     name: 'Centris', site: 'centris.ca', country: 'CA', flag: '🇨🇦',
     currency: 'CAD', db: 'centris', container: 'scraper-centris', type: 'html',
   },
-  mktlist: {
-    name: 'MktList', site: 'mktlist.ca', country: 'CA', flag: '🇨🇦',
-    currency: 'CAD', db: 'mktlist', container: 'scraper-mktlist', type: 'html',
-  },
   bienici: {
     name: "Bien'ici", site: 'bienici.com', country: 'FR', flag: '🇫🇷',
     currency: 'EUR', db: 'bienici', container: 'scraper-bienici', type: 'api',
